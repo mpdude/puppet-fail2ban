@@ -1,0 +1,17 @@
+{
+  "name": "netmanagers-fail2ban",
+  "version": "1.4.0",
+  "author": "Javier Bertoli",
+  "summary": "Puppet module for fail2ban",
+  "license": "Apache2",
+  "source": "https://github.com/netmanagers/puppet-fail2ban",
+  "project_page": "http://www.netmanagers.com.ar",
+  "issues_url": "https://github.com/netmanagers/puppet-fail2ban/issues",
+  "description": "This module installs and manages fail2ban. Check README for details.",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">=4.1.0"},
+    {"name":"puppetlabs/concat","version_requirement":">=1.0.0"},
+    {"name":"example42/puppi","version_requirement":">=2.0.0"},
+    {"name":"example42/monitor","version_requirement":">=2.0.0"}
+  ]
+}
